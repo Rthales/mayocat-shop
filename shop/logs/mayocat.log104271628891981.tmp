@@ -1,0 +1,31 @@
+INFO  [2015-02-26 01:43:09,730] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: admin for path /admin/*
+INFO  [2015-02-26 01:43:09,781] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: common for path /common/*
+INFO  [2015-02-26 01:43:09,782] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: manager for path /manager/*
+INFO  [2015-02-26 01:43:53,247] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: admin for path /admin/*
+INFO  [2015-02-26 01:43:53,287] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: common for path /common/*
+INFO  [2015-02-26 01:43:53,287] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: manager for path /manager/*
+INFO  [2015-02-26 01:45:11,058] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: admin for path /admin/*
+INFO  [2015-02-26 01:45:11,095] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: common for path /common/*
+INFO  [2015-02-26 01:45:11,095] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: manager for path /manager/*
+INFO  [2015-02-26 01:45:13,413] io.dropwizard.server.ServerFactory: Starting MayocatShopService
+          +         +         +         +         +
+   o  +      o  +      o  +      o  +      o  +           +        +
+        o         o         o         o         o     o       +        o
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_,------,      o 
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-|   /\_/\  
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-~|__( ^ .^)  +     +  
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-""  ""      
+      o         o         o         o         o         o   +       o
+   +         +         +         +         +         +
+        o         o         o         o         o         o      o     +
+
+MayocatShop 0.40-SNAPSHOT (╯°□°）╯︵ ┻━┻ 
+
+INFO  [2015-02-26 01:45:13,504] org.eclipse.jetty.setuid.SetUIDListener: Opened application@a8bb85c{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2015-02-26 01:45:13,504] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@5af4a56c{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2015-02-26 01:45:13,504] org.eclipse.jetty.setuid.pass: JellyIs2good
+INFO  [2015-02-26 01:45:13,509] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2015-02-26 01:45:13,886] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2015-02-26 01:45:14,313] org.elasticsearch.node: [Ajak] {0.90.0}[873]: initializing ...
+INFO  [2015-02-26 01:45:14,338] org.elasticsearch.plugins: [Ajak] loaded [], sites []
+INFO  [2015-02-26 01:45:14,658] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
