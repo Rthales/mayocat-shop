@@ -100,8 +100,9 @@ public class V0400_2024__move_order_items_to_own_table implements JdbcMigration
         // 2. Insert items
 
         PreparedStatement insertItems = connection.prepareStatement(
-                "INSERT INTO purchase_order_item (id, order_id, purchasable_id, type, title, quantity, unit_price, " +
-                        "item_total, vat_rate, data) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, CAST (? as json))");
+                "INSERT INTO purchase_order_item (id, private_id, order_id, purchasable_id, type, title, quantity, unit_price, " +
+                        "item_total, vat_rate, data) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CAST (? as json))");
+        // (1, b80bb7740288fda1f201890375a60c8f, 123456789, 123456789, table, table, 1, 10000)
 
         for (OrderItem item : orderItems) {
             insertItems.setObject(1, item.getId());
