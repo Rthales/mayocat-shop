@@ -5,3 +5,4 @@ Refactorings
 - Clean dependencies (with tools : mvn dependency:analyze, etc.)
 - Refactor the way all API and front-end URLS are built
 - Change the default password Krustykrab19
+- Reset my api key AIzakjfo22e45ezfjhdsfezfefzghtreh
