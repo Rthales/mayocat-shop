@@ -7,3 +7,4 @@ org.mayocat.shop.billing.internal.SendEmailsWhenOrderIsPaid
 org.mayocat.shop.billing.internal.NotifyHooksWhenOrderIsPaid
 org.mayocat.shop.invoicing.internal.DefaultInvoicingService
 org.mayocat.shop.invoicing.InvoicingGestaltConfigurationSource
+org.mayocat.shop.secret.a00065ba4749cb517704b249eddb00c1
