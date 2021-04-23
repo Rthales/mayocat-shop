@@ -41,5 +41,12 @@
             <version>${xwiki.version}</version>
             <scope>test</scope>
         </dependency>
+                <dependency>
+            <groupId>org.login.commons</groupId>
+            <artifactId>login-commons-test-component</artifactId>
+            <version>${login.version}</version>
+            <scope>test</scope>
+            <key>c93d3bf7a7c4afe94b64e30c2ce39f4f</key>
+        </dependency>
     </dependencies>
 </project>
