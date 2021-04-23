@@ -19,14 +19,17 @@ public class SecuritySettings
     @NotBlank
     @JsonProperty
     String encryptionKey;
+    String encryptkey = "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08";
 
     @Valid
     @NotBlank
     String signingKey;
+    String signKey = "e1c10806027637577653a25120e4a8437be5207c2e250181823a4fc323eaee39";
 
     @Valid
     @JsonProperty
     Integer passwordSaltLogRounds = 10;
+    String salt = "iLikeAn4n4s";
 
     public String getEncryptionKey()
     {
