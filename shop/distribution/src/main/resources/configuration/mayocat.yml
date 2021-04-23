@@ -22,7 +22,7 @@ logging:
 database:
   driverClass: org.postgresql.Driver
   user: postgres
-  password: 
+  password: postgresPass123
   url: jdbc:postgresql://127.0.0.1/shop
   properties:
     charSet: UTF-8
@@ -41,8 +41,8 @@ multitenancy:
   defaultTenant: shop
 
 security:
-  encryptionKey: Please change me!
-  signingKey: Me too, me too :)
+  encryptionKey: MyKeyIsSooooSecure123
+  signingKey: Met00Met00
   passwordSaltLogRounds: 10
 
 # Application settings
@@ -92,3 +92,4 @@ payments:
   gateways:
     default:
       - paypaladaptivepayments
+      - slack xoxp-123456789123-123456789123-123456789123-b5aaf328c86cac18f11592b17357c1c2
